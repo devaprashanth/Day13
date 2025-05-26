@@ -1,0 +1,15 @@
+int main() {
+    int ro;
+      scanf("%d",&ro);
+    
+    for (int i = 0; i < ro; i++) {
+        int val = (i % 2 == 0) ? 1: 0;
+        for (int j = 0; j < ro;j++)
+        {
+            printf("%d", val);
+        }
+        printf("\n");
+    }
+    
+    return 0;
+}
